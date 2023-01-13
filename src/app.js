@@ -1,7 +1,7 @@
 const express = require('express')
 const handlebars = require('express-handlebars')
 const { Server } = require('socket.io')
-const routerViews = require('./routes/views.router.js')
+const routerViews = require('./routes/views.routes.js')
 
 // init Servers
 const app = express()
